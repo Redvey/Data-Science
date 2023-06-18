@@ -1,0 +1,14 @@
+In Python, when you assign a new value to an existing variable of an immutable data type, a new object is indeed created with the new value, and the variable is reassigned to reference the new object. The existing object remains unchanged.
+
+For example, consider the following code snippet:
+
+python
+
+x = 5  # x is assigned to an immutable object (integer)
+x = 10  # A new object (integer) with the value 10 is created, and x is reassigned to reference this new object
+
+
+
+
+In this example, the variable x initially references an immutable object with the value 5. When x = 10 is executed, a new object (integer) with the value 10 is created, and x is reassigned to reference this new object. The existing object with the value 5 remains unchanged, and x now refers to the new object with the value 10.
+
