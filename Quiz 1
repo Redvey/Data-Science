@@ -118,7 +118,7 @@ new_list.append(4)
 print(my_list)
 
 What will be the output of the above code?
-ans: error
+ans: error                                      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   [1,2,3,4]
 ______________________________________________________________________________________________________________________________________________
 Which of the following data types in Python is mutable?
 
@@ -175,10 +175,10 @@ What happens when you assign a new value to an existing variable of an immutable
 The existing object is modified with the new value.
 
 
-A new object is created with the new value and assigned to the variable.
+A new object is created with the new value and assigned to the variable.          ######################
 
 
-An error occurs as you cannot assign a new value to an existing variable of an immutable data type.         ######################
+An error occurs as you cannot assign a new value to an existing variable of an immutable data type.         
 
 
 None of the above.
