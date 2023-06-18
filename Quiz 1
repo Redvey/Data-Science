@@ -1,0 +1,184 @@
+1. What is the output of the following code?
+
+x = 5
+
+y = 3
+
+x = y
+
+y = x + 2
+
+print(x, y)
+
+ans:
+3 5
+_______________________________________________________________________________________________________________________________
+2. What is the output of the following code?
+
+a = 10
+
+b = 5
+
+c = a // b
+
+d = a % b
+
+print(c, d)
+
+ans:
+2 0
+
+____________________________________________________________________________________________________________________________________
+3. What is the output of the following code?
+
+x = 5
+
+y = 10
+
+x = y
+
+y = 20
+
+print(x)
+ans:
+10
+____________________________________________________________________________________________________________________________________________
+4. What is the output of the following code snippet?
+
+x = 5
+
+y = 10
+
+if x > y:
+
+    print("x is greater")
+
+else:
+
+    print("y is greater")
+ans: y is greater
+___________________________________________________________________________________________________________________________________________
+5. What will be the output of the given code?
+
+ 
+
+sum = 0
+
+for i in range(1, 6):
+
+    sum += i
+
+print(sum)
+
+ans: 15
+_____________________________________________________________________________________________________________________________________________
+6.What will be the output of the given code?
+
+ 
+
+count = 0
+
+while count < 5:
+
+    print(count)
+
+    count += 1
+ans:
+01234
+_____________________________________________________________________________________________________________________________________________
+7. What will be the output of the given code if x = 10?
+
+ 
+
+x = 10
+
+if x > 5:
+
+    print("x is greater than 5")
+
+elif x == 5:
+
+    print("x is equal to 5")
+
+else:
+
+    print("x is less than 5")
+    
+ans:
+x is greater than 5
+______________________________________________________________________________________________________________________________________________
+12. Consider the following code:
+
+my_list = [1, 2, 3]
+
+new_list = my_list
+
+new_list.append(4)
+
+print(my_list)
+
+What will be the output of the above code?
+ans: error
+______________________________________________________________________________________________________________________________________________
+Which of the following data types in Python is mutable?
+
+
+int
+
+
+float
+
+
+tuple
+
+
+list         ############
+___________________________________________________________________
+
+9.
+Which of the following data types in Python is immutable?
+
+
+set
+
+
+dict
+
+
+list
+
+
+str    ##################
+
+___________________________________________________________________
+
+10.
+Which of the following operations can be performed on immutable objects?
+
+
+Appending new elements
+
+
+Removing elements
+
+
+Modifying elements
+
+
+None of the above      ##########################
+___________________________________________________________________
+
+11.
+What happens when you assign a new value to an existing variable of an immutable data type?
+
+
+The existing object is modified with the new value.
+
+
+A new object is created with the new value and assigned to the variable.
+
+
+An error occurs as you cannot assign a new value to an existing variable of an immutable data type.         ######################
+
+
+None of the above.
